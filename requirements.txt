@@ -1,0 +1,20 @@
+# ==== Backend (Django 기반 API 서버) ====
+Django==5.0.6                 # 웹 프레임워크 (백엔드 핵심)
+djangorestframework==3.15.1   # REST API 지원
+django-cors-headers==4.3.1    # CORS 문제 해결 (React/앱 연동용)
+python-dotenv==1.0.1          # .env 환경변수 관리 (DB 비밀번호, SECRET_KEY 등)
+
+# ==== Database (MySQL 연동) ====
+mysqlclient==2.2.4            # MySQL/MariaDB 연동 드라이버
+
+# ==== Data & Machine Learning (선택: AI/데이터 처리 확장) ====
+numpy==1.26.4                 # 수치 계산 라이브러리
+pandas==2.2.2                 # 데이터프레임 처리 (센서 로그, 통계 등)
+scikit-learn==1.5.0           # 간단한 머신러닝/통계 모델
+torch==2.2.2                  # PyTorch (AI 모델용, 필요 시)
+transformers==4.40.0          # HuggingFace Transformers (자연어처리, 필요 시)
+
+# ==== IoT / Raspberry Pi (센서 및 장치 제어) ====
+gpiozero==1.6.2               # Raspberry Pi GPIO 제어를 쉽게 해주는 라이브러리
+paho-mqtt==1.6.1              # MQTT 통신 (AWS IoT Core, Mosquitto 브로커 등과 연동)
+requests==2.32.2              # HTTP 요청 (외부 API 호출 시 사용)
