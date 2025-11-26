@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "763982831274",
+    "project_id": "live-parking-eed8c",
+    "storage_bucket": "live-parking-eed8c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763982831274:android:ecdcc08b452b1d1277bad3",
+        "android_client_info": {
+          "package_name": "com.live_parking_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYhvjOYon17BDniETdNrsEIkGT_0FGVzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

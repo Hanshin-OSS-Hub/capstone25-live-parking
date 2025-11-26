@@ -27,6 +27,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "corsheaders.middleware.CorsMiddleware",  # ← CORS 미들웨어 추가
     "django.contrib.sessions.middleware.SessionMiddleware",
     "corsheaders.middleware.CorsMiddleware",   # ← CORS는 SessionMiddleware 바로 아래!
     "django.middleware.common.CommonMiddleware",
@@ -62,7 +63,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "live_parking_db",
         "USER": "root",
-        "PASSWORD": "rlaqudwo@0814",
+        "PASSWORD": "Ab692800@",
         "HOST": "localhost",
         "PORT": "3306",
         "OPTIONS": {
