@@ -1,0 +1,68 @@
+**/.git
+# -----------------------------
+# Python / Django
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+db.sqlite3
+*.log
+
+# Django static & media
+staticfiles/
+media/
+
+# -----------------------------
+# Node / React Native
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/
+*.bundle
+.expo/
+
+# Metro / Watchman
+.watchmanconfig
+
+# -----------------------------
+# Android
+# -----------------------------
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/build/
+android/build/
+*.keystore
+
+# google-services.json (Already tracked manually)
+# If needed, ignore but allow root-level only:
+# !android/app/google-services.json
+# !android/app/src/debug/google-services.json
+# !android/app/src/release/google-services.json
+
+# -----------------------------
+# iOS
+# -----------------------------
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcuserdata
+
+# -----------------------------
+# VSCode / Tools
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+
+# -----------------------------
+# Python migrations (optional)
+# -----------------------------
+**/migrations/*.pyc
+**/migrations/*.py~
+/android/
